@@ -42,7 +42,7 @@ export default async function NavigationSidebar() {
           </div>
         ))}
       </ScrollArea>
-      <div className="pb-3 ml-auto flex items-center flex-col gap-y-4">
+      <div className="pb-3 m-auto flex items-center flex-col gap-y-4">
         <ModeToggle />
         <UserButton
           afterSignOutUrl="/"
